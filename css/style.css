@@ -1,0 +1,119 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: #978268;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ox {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.jo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.qu {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.gi {
+    font-family: 'Give You Glory', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+a {
+    color: #fff;
+}
+
+.nota {
+    margin: 10px 0 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.quant,
+.tipo {
+    text-align: center;
+    margin: 4px;
+    color: #fff;
+}
+
+.quant span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    border: 1px solid transparent;
+    transition: all 0.25s linear;
+}
+
+.quant span.active,
+.quant span:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    border: 1px solid #978268;
+}
+
+.tipos{
+  text-align: center;
+}
+.tipo{
+  display:inline-block;
+}
+.tipo span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 16px;
+    padding: 0px 8px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.25s linear;
+}
+
+.tipo small {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.tipo span.active,
+.tipo span:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+    border: 1px solid #978268;
+}
+
+.lorem {
+    margin: 20px 0;
+    padding: 20px;
+    background: #EADDCD;
+    color: #333;
+}
+
+.ipsum {
+    display: none;
+}
+
+.footer {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}

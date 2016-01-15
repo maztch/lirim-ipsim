@@ -1,0 +1,10 @@
+{
+    "name": "maztch/lirimipsim",
+    "authors": [{
+        "name": "maztch",
+        "email": "maztch@gmail.com"
+    }],
+    "require": {
+        "joshtronic/php-loremipsum": "dev-master"
+    }
+}
