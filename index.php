@@ -22,7 +22,8 @@ $tipo = array('words'=>'paraules', 'sentences'=>'frases', 'paragraphs'=>'paràgr
 	    <h1>Lirim ipsim giniritir</h1>
 
 	    <div class="nota">
-			<p>Estavem aborrits i se'ns ha acudit fer això...disculpeu-nos</p>
+			<p><input type="text" name="orig" id="orig" value="- Hem fet un altre lorem ipsum..."></p>
+			<p><span class="translate"></span></p>
 		</div>
 		
 		<div class="quant">

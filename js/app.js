@@ -12,7 +12,6 @@ $(function() {
 
     function show_itsum(q, t) {
         $('.ipsum').hide();
-        console.log('.ipsum[data-quant="' + q + '"][data-tipo="' + t + '"]');
         $('.ipsum[data-quant="' + q + '"][data-tipo="' + t + '"]').show('slow');
     }
 
@@ -43,4 +42,14 @@ $(function() {
         tipo = $(this).attr('data-rel-tipo');
         show_itsum(quant, tipo);
     });
+
+
+    $('#orig').keydown(function() {
+        translate($(this).val());
+    });
+    $('#orig').keydown();
+
+    function translate(str){
+        $('.translate').html(str.replace(/[aeiou]/, 'i').replace(/[AEIUO]/, 'I').replace(/[àèìòù]/g, 'ì').replace(/[áéíóú]/g, 'ì'));
+    }
 });
