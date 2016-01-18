@@ -50,6 +50,6 @@ $(function() {
     $('#orig').keydown();
 
     function translate(str){
-        $('.translate').html(str.replace(/[aeiou]/, 'i').replace(/[AEIUO]/, 'I').replace(/[àèìòù]/g, 'ì').replace(/[áéíóú]/g, 'ì'));
+        $('.translate').html(str.replace(/[aeiou]/g, 'i').replace(/[AEIUO]/g, 'I').replace(/[àèìòù]/g, 'ì').replace(/[áéíóú]/g, 'ì'));
     }
 });
